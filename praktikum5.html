@@ -180,5 +180,89 @@
   <header>
     <h1>praktikum: HTML Forms</h1>
   </header>
+  
+  <main>
+    <section>
+       <form action="" method="">
+        <fieldset>
+          <legend>identitas</legend>
+          <div class="grid">
+           <div class="row">
+            <label for="">Nama Lengkap</label>
+            <input type="password" 
+            placeholder="Zalita Khansa Adilla" required="">
+           </div>
+            <div class="row">
+            <label for="">Tanggal Lahir</label>
+            <input type="date" 
+            placeholder="" required="">
+            <div class="row">
+            <label for="">Foto Profile</label>
+            <input type="file" 
+            placeholder="" required="">
+            <div class="row">
+            <label for="">NIM</label>
+            <input type="number" 
+            maxlength="10" required="" value="110125046" readonly="">
+           </div>
+           <div class="row">
+            <label for="">contoh disable</label>
+            <input type="text" 
+            value="tidak terkirim" disabled="">
+           </div>
+           </div>
+          </fieldset>
+          
+          <fieldset>
+            <legend>preferensi</legend>
+           <div class="grid">
+             <div class="row">
+             <label>jurusan</label>
+             <select>
+                <option>teknik informatika</option>
+                <option>sistem informasi</option>
+                <option>bisnis digital</option>
+             </select>
+             </div>
+             <div class="row">
+               <label>jenjang</label>
+               <div>
+                 <label>
+                   <input type="radio" name="jenjang" value="D3"> D3 
+                 </label>
+                <label>
+                   <input type="radio" name="jenjang" value="D4"> D4
+                 </label>
+                <label>
+                   <input type="radio" name="jenjang" value="S1"> S1
+                 </label>
+               </div>
+               <div class="row">
+                 <label>minat</label>
+                <div>
+                  <label>
+                    <input type="checkbox"> WEB
+                  </label>
+                   <label>
+                    <input type="checkbox"> MOBILE
+                  </label>
+                   <label>
+                    <input type="checkbox"> AI
+                  </label>
+                </div>
+              </div>
+              <div class="row">
+                 <label>Warna Favorite</label>
+                 <input type="color" value="#2196f3">
+             </div>
+              <div class="row">
+              <label>Level skill</label>
+              <input type="range" value="5" min="0" max="10">
+             </div>
+             </div>
+        </fieldset>
+       </form>
+    </section>
+  </main>
 </body>
 </html>
